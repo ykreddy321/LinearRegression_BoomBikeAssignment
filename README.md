@@ -60,7 +60,7 @@ You are required to model the demand for shared bikes with the available indepen
 
 6. Splitting the Data into Training and Testing Sets. Used the MinMaxScaler rescaling features.
 	- Draw the heatmap to find the coorreltion between variables.
-	- based on the heat map we see the 'cnt' is most correlated with 'temp' and 'atemp'. Let's see a pairplot for `nt vs `atemp`.
+	- based on the heat map we see the 'cnt' is most correlated with 'temp' and 'atemp'. Let's see a pairplot for `cnt vs `atemp`.
 7. Building a linear model
    Fit a regression line through the training data using `statsmodels`. Remember that in `statsmodels`, you need to explicitly fit a constant using `sm.add_constant(X)` because if we don't perform this step, `statsmodels` fits a regression line passing through the origin, by default.
    - Build the linear model by adding all the variables to the model.
